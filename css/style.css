@@ -1,0 +1,463 @@
+* {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a,
+.btn {
+    color: #3a3a3a;
+    text-decoration: none;
+    transition: all 0.15s ease-in;
+}
+
+
+/* Profile Section */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+}
+
+.logo {
+    font-size: xx-large;
+}
+.nav-links {
+    font-size: x-large;
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    padding: 0 15px;
+}
+
+li a:hover {
+    color: #626262;
+    border-bottom: 2px solid #626262;
+    padding-bottom: 5px;
+}
+
+/* Profile Main */
+
+.profile-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    flex-wrap: wrap;
+}
+
+.profile-pic-container {
+    height: 350px;
+    width: 350px;
+    background-color: #626262;
+    border-radius: 400px;
+    overflow: hidden;
+    margin-right: 40px;
+}
+
+.profile-pic-container img {
+    width: 350px;
+    align-content: center;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.profile-info p {
+    color: #626262;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.profile-info h1 {
+   margin: 5px;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.profile-info h2 {
+    color: #626262;
+    margin: 5px;
+}
+
+.profile-btn {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.profile-btn .btn {
+    margin: 5px 10px;
+    font-size: 1.1rem;
+}
+
+.outline-btn {
+    border: 2px outset #3a3a3a;
+    padding: 10px 17px;
+    border-radius: 50px;
+}
+
+.fill-btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: #3a3a3a;
+    color: white;
+}
+
+
+.outline-btn:hover {
+    background-color: #3a3a3a;
+    color: white;
+}
+
+.fill-btn:hover {
+    background-color: #121212;
+}
+.profile-socialmedia a {
+    height: 50px;
+}
+
+.profile-socialmedia a img {
+    height: 35px;
+    padding: 0px 5px;
+}
+
+/* Footer */
+
+footer {
+    height: 10vh;
+    text-align: end;
+    padding: 5px 50px;
+}
+
+footer img {
+    height: 40%;
+}
+
+
+
+
+
+/* About Section */
+
+#about header {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.about-header p {
+    color: #626262;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.about-header h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+
+
+/* About Main */
+#about main {
+    height: 70vh;
+    padding: 0px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.about-photo {
+    height: 450px;
+    width: 400px;
+    background-color: #626262;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+
+
+.about-info {
+    display: flex;
+    margin: 5px;
+}
+
+.about-bio {
+    padding: 0px 20px;
+    width: 90%;
+}
+
+.about-info section {
+    width: 400px;
+    padding: 50px;
+    border: 2px solid #626262;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+.about-info section h2{
+    font-weight: 600;
+    margin: 5px;
+}
+
+.about-info section p {
+    color: #626262;
+    font-weight: 500;
+}
+
+
+/* About Footer */
+#about footer {
+    height: 10vh;
+}
+
+
+
+/* Experience Section */
+
+
+#experience header {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.experience-header p {
+    color: #626262;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.experience-header h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+/* Experience Main */
+
+#experience main {
+    height: 70vh;
+    padding: 0px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.experience-details-container {
+    margin: 10px 30px;
+    width: 40%;
+
+}
+.experience-details-container h1 {
+    color: #626262;
+    font-weight: 600;
+}
+
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-container li {
+    list-style: none;
+    margin: 20px 0px 30px 30px;
+    display: flex;
+}
+
+.program-name {
+    margin-left: 15px;
+}
+
+.program-name h3 {
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.program-name p {
+    color: #626262;
+}
+
+/* About Footer */
+#experience footer {
+    height: 10vh;
+}
+
+
+
+/* project Section */
+
+#projects header {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.projects-header p {
+    color: #626262;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.projects-header h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+
+/* projects Main */
+
+#projects main {
+    height: 70vh;
+    padding: 0px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #626262;
+    border-radius: 20px;
+    margin: 25px;
+}
+.project-image {
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.project-links,
+.project h1 {
+    margin: 10px;
+}
+.project-links a {
+    margin: 0px 5px;
+}
+
+/* Project Footer */
+#projects footer {
+    height: 10vh;
+}
+
+
+
+
+/* Contact Secction */
+
+
+
+#contact main {
+    height: 80vh;
+    padding: 0px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.contact-header {
+    text-align: center;
+}
+
+.contact-header p {
+    color: #626262;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.contact-header h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+
+.contact-container {
+    border: 2px solid #3a3a3a;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px 0px;
+    display: flex;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.contact-info img {
+    margin-right: 5px;
+}
+
+/* Contact Footer */
+#contact footer {
+    height: 20vh;
+}
+
+#contact footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-links {
+    font-size: x-large;
+    display: flex;
+    list-style: none;
+}
+
+.footer-links li {
+    padding: 0 15px;
+}
+.copyright {
+    font-size: small;
+    color: #626262;
+}
