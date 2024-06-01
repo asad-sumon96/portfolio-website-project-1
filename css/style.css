@@ -48,15 +48,17 @@ li a:hover {
     padding-bottom: 5px;
 }
 
-@media (max-width:850px) {
+@media (max-width:920px) {
     .nav-links {
         font-size: 1.2rem;
         display: flex;
         flex-direction: column;
+        visibility: hidden;
     }
 
     .logo {
         font-size: 1.8rem;
+        padding-left: 10px;
     }
     
 }
@@ -170,12 +172,12 @@ footer img {
 
 
 
-@media (max-width: 850px) {
+@media (max-width: 920px) {
     .profile-main {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        height: 80vh;
+        height: auto;
     }
 
     .profile-pic-container {
@@ -238,7 +240,7 @@ footer img {
 
 /* About Main */
 #about main {
-    height: 70vh;
+    height: auto;
     padding: 1rem;
     width: 100%;
     display: flex;
@@ -304,7 +306,7 @@ footer img {
 
 
 
-@media (max-width: 850px) {
+@media (max-width: 920px) {
 
     #about header {
         height: 10vh;
@@ -430,7 +432,7 @@ footer img {
 }
 
 
-@media (max-width: 850px) {
+@media (max-width: 920px) {
 
     #experience header {
         height: 15vh;
@@ -509,11 +511,15 @@ footer img {
     margin: 25px;
 }
 .project-image {
-    height: 300px;
-    width: 250px;
+    height: 20rem;
+    width: 16rem;
     border-radius: 20px;
     overflow: hidden;
     margin: 10px;
+}
+
+.project-image img {
+    height: 20rem;
 }
 
 .project-links,
@@ -531,7 +537,7 @@ footer img {
 }
 
 
-@media (max-width: 850px) {
+@media (max-width: 920px) {
 
     #projects header {
         height: 15vh;
@@ -548,16 +554,16 @@ footer img {
     
 
     #projects main {
-        height: 80vh;
+        height: auto;
         font-size: 0.8rem;
     }
 
     .project {
-        width: 45%;
+        width: 70%;
         font-size: 0.8rem;
         text-align: center;
         padding: 10px;
-        margin: 5px;
+        margin: 15px;
     }
 
     .project-image {
@@ -568,10 +574,6 @@ footer img {
         margin: 2px;
     }
 
-    .project-image img {
-        height: 200px;
-    }
-    
     .project-links {
         display: flex;
         flex-wrap: wrap;
@@ -587,6 +589,7 @@ footer img {
 
     #projects footer {
         height: 5vh;
+        margin-top: 10px;
     }
   }
 
@@ -672,7 +675,7 @@ footer img {
 }
 
 
-@media (max-width: 850px) {
+@media (max-width: 920px) {
     .contact-header p {
         font-size: 0.8rem;
     }
